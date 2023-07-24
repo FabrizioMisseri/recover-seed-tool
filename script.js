@@ -23,3 +23,17 @@ const outputBtn = document.getElementById('output-btn').addEventListener("click"
         alert("Attenzione hai inserito un numero non valido perchè maggiore di 2047 o minore di 0.");
     }
 });
+
+
+//---------------------------------------------------------------------------------------------------
+
+// let vedi = document.getElementById('vedi');
+
+// const vediBtn = document.getElementById('btn-vedi').addEventListener("click", function () {
+
+//     for (let i = 0; i < secretWords.length; i++) {
+//         if (vedi.value == secretWords[i]) {
+//             document.getElementById('risultato').innerHTML = `${i} <br> ${secretWords[i]}`;
+//         }
+//     }
+// })
