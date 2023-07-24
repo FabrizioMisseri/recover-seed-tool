@@ -12,7 +12,9 @@ console.log(secretWords);
 const outputBtn = document.getElementById('output-btn').addEventListener("click", function () {
     if (inputNum.value < 2048 && inputNum.value >= 0) {
         if (listCounter < 24) {
-            wordsList.innerHTML += `<li class="list-group-item">${secretWords[inputNum.value]}</li>`;
+            wordsList.innerHTML += `<li class="list-group-item">
+            ${secretWords[inputNum.value].toUpperCase()} (numero inserito: ${inputNum.value})
+            </li>`;
             inputNum.value = null;
             listCounter++;
         } else {
